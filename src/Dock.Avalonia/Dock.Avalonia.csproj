@@ -26,4 +26,8 @@
     <ProjectReference Include="..\Dock.Model\Dock.Model.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Update="Avalonia" Version="0.6.2-build5794-beta" />
+  </ItemGroup>
+
 </Project>
