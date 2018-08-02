@@ -9,6 +9,9 @@
 
   <Import Project="..\..\build\Base.props" />
   <Import Project="..\..\build\ReactiveUI.props" />
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.6.2-build5800-beta" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Dock.Model\Dock.Model.csproj" />

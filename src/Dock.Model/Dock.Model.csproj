@@ -9,4 +9,8 @@
 
   <Import Project="..\..\build\Base.props" />
 
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.6.2-build5800-beta" />
+  </ItemGroup>
+
 </Project>
