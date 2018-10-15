@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using Dock.Model.Controls;
 using Dock.Model.Controls.Editor;
-using ReactiveUI;
+using ReactiveUI.Legacy;
 
 namespace Dock.Model
 {
@@ -16,7 +16,9 @@ namespace Dock.Model
         /// <inheritdoc/>
         public override IList<T> CreateList<T>(params T[] items)
         {
+#pragma warning disable CS0618 // Type or member is obsolete
             var type = typeof(ReactiveList<>).MakeGenericType(typeof(T));
+#pragma warning restore CS0618 // Type or member is obsolete
             return (IList<T>)Activator.CreateInstance(type, items);
         }
 

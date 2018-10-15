@@ -5,6 +5,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/d77dburg3ckelv40/branch/master?svg=true)](https://ci.appveyor.com/project/wieslawsoltes/dock/branch/master)
 [![Build Status](https://travis-ci.org/wieslawsoltes/Dock.svg?branch=master)](https://travis-ci.org/wieslawsoltes/Dock)
 [![CircleCI](https://circleci.com/gh/wieslawsoltes/Dock/tree/master.svg?style=svg)](https://circleci.com/gh/wieslawsoltes/Dock/tree/master)
+[![Build Status](https://dev.azure.com/wieslawsoltes/Dock/_apis/build/status/wieslawsoltes.Dock)](https://dev.azure.com/wieslawsoltes/Dock/_build/latest?definitionId=1)
 
 [![NuGet](https://img.shields.io/nuget/v/Dock.Model.svg)](https://www.nuget.org/packages/Dock.Model)
 [![MyGet](https://img.shields.io/myget/dock-nightly/vpre/Dock.Model.svg?label=myget)](https://www.myget.org/gallery/dock-nightly) 
@@ -19,8 +20,8 @@ A docking layout system.
 
 | Version               | Framework      | Model         | Download                                                                                                                                                                                                 |
 |-----------------------|----------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Windows 7 8.1 10 x64  | netcoreapp2.1  | INPC          | [AvaloniaDemo.INPC-netcoreapp2.1-win7-x64.zip](https://ci.appveyor.com/api/projects/wieslawsoltes/Dock/artifacts/artifacts/AvaloniaDemo.INPC-netcoreapp2.1-win7-x64.zip?branch=master)                   |
-| Windows 7 8.1 10 x64  | netcoreapp2.1  | ReactiveUI    | [AvaloniaDemo.ReactiveUI-netcoreapp2.1-win7-x64.zip](https://ci.appveyor.com/api/projects/wieslawsoltes/Dock/artifacts/artifacts/AvaloniaDemo.ReactiveUI-netcoreapp2.1-win7-x64.zip?branch=master)       |
+| Windows 7 8.1 10 x64  | netcoreapp2.1  | INPC          | [AvaloniaDemo.INPC-netcoreapp2.1-win7-x64.zip](https://ci.appveyor.com/api/projects/wieslawsoltes/Dock/artifacts/artifacts/zip/AvaloniaDemo.INPC-netcoreapp2.1-win7-x64.zip?branch=master)                   |
+| Windows 7 8.1 10 x64  | netcoreapp2.1  | ReactiveUI    | [AvaloniaDemo.ReactiveUI-netcoreapp2.1-win7-x64.zip](https://ci.appveyor.com/api/projects/wieslawsoltes/Dock/artifacts/artifacts/zip/AvaloniaDemo.ReactiveUI-netcoreapp2.1-win7-x64.zip?branch=master)       |
 
 ## Building Dock
 
